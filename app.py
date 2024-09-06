@@ -22,11 +22,7 @@ for linha in pagina_clientes.iter_rows(min_row=2):
     
     # Formatar a mensagem personalizada
     mensagem = (
-        f'Olá {nome}, 💰 Você quer poupar aquela graninha extra? Invista de 100 a 200 reais no Ourocap! 💰'
-        '**Guarde seu dinheiro e concorra a 3.380 prêmios**! 😱 São 70 prêmios de até R$ 20 mil todo mês + sorteios semestrais e o especial anual de R$ 2,5 milhões. 🎉'
-        'Próximo sorteio: 11/09.'
-        '#RealizeComOurocap'
-        '#SeuEuDoFuturoAgradece 🌟 📲')
+        f'Olá {nome}, 💰 Você quer poupar aquela graninha extra? '
         
     # Criar o link de mensagem personalizada do WhatsApp
     try:
